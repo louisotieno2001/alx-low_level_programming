@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "$CFILE"
+$CFILE=name.c
+#include <stdio.h> int main() { printf("This is a string"); return 0;}>>name.c
+>>cisfun
+chmod u+x cisfun
