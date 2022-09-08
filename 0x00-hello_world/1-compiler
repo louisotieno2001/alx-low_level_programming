@@ -1,0 +1,3 @@
+#!/bin/bash
+export $CFILE="Compiler.o"
+echo "#include <stdio.h> int main() { printf("Compiling without linking"); return 0; }>>$CFILE  cc -c $CFILE
