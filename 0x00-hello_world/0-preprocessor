@@ -1,3 +1,9 @@
 #!/bin/bash
-export $CFILE="#include <stdio.h>
+export $CFILE="Preprocessor.c"
+#include <stdio.h>
+int main()
+{
+printf("#include <stdio.h>");
+return 0;
+}>>$CFILE
 echo "{$CFILE}">>c
