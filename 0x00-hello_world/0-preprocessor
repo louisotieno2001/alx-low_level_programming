@@ -1,0 +1,3 @@
+#!/bin/bash
+export $CFILE="#include <stdio.h>
+echo "{$CFILE}">>c
