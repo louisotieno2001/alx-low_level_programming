@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "$CFILE"
+$CFILE = assembler.s
+#include <stdio.h> int main() {printf("Assembler"); return 0;}>>assembler.s
